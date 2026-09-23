@@ -8,3 +8,27 @@ ou aproveite do exemplo 3.
 #include <stdio.h>
 #include <windows.h>
 
+//Variáveis Globais
+int tempo = 0, acc = 0, i = 0;
+
+//Protótipo das funções
+void inserirTempo();
+int contador(int tempo);
+void saida();
+
+int main(){
+    inserirTempo();
+    contador(tempo);
+    saida();
+}
+
+void inserirTempo(){
+    printf("Insira o tempo desejado para cronometrar (em segundos): \n");
+    scanf("%d", &tempo);
+}
+
+int contador(tempo){
+    acc = tempo;
+    for(i = 1; i <= tempo; i++){
+    printf("===== PROGRAMA ENCERRADO =====\n");
+}
