@@ -27,8 +27,14 @@ void inserirTempo(){
     scanf("%d", &tempo);
 }
 
-int contador(tempo){
+int contador(int tempo){
     acc = tempo;
     for(i = 1; i <= tempo; i++){
-    printf("===== PROGRAMA ENCERRADO =====\n");
+        printf("Contagem: %d\n", i);
+        Sleep(1000);
+    }
+}
+
+void saida(){
+    printf("========== PROGRAMA ENCERRADO ===============\n");
 }
